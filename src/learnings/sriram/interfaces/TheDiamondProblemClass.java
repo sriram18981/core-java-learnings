@@ -1,4 +1,4 @@
-package home.sriram.interfaces;
+package learnings.sriram.interfaces;
 
 public class TheDiamondProblemClass implements IThirdInterface {
 

@@ -1,4 +1,4 @@
-package home.sriram.interfaces;
+package learnings.sriram.interfaces;
 
 @FunctionalInterface
 public interface IFirstInterface {

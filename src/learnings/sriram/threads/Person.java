@@ -1,4 +1,4 @@
-package home.sriram.threads;
+package learnings.sriram.threads;
 
 public class Person {
 
