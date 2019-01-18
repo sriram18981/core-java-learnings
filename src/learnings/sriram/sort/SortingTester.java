@@ -19,15 +19,11 @@ public class SortingTester {
 	printArray(arr);
 
 	int[] sortedArr = new int[size];
-//	copyArray(arr, sortedArr);
-//	mergeSplitSort(sortedArr, 0, size, arr);
-
 	
 	TopDownMergeSort(arr, sortedArr, size);
 	
 	
 	printArray(arr);
-	//printArray(sortedArr);
     }
     
  // Array A[] has the items to sort; array B[] is a work array.

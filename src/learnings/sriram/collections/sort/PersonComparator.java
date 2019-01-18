@@ -19,7 +19,6 @@ public class PersonComparator implements Comparator<Person> {
 		} else {
 			return o1.getName().compareTo(o2.getName());
 		}
-		
 	}
 
 }

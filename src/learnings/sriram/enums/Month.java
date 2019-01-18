@@ -23,7 +23,7 @@ public enum Month implements Comparable<Month>{
 	public String getName() { return name; }
 	
 	@Override
-	public String toString() { return name; }
+	public String toString() { return String.join("-", name, ""+days); }
 	
 	public boolean has30Days() { return days == 30; }
 	
