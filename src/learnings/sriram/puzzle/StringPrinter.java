@@ -31,7 +31,7 @@ public class StringPrinter {
 		for (int rotation = 0; rotation < rotateStr.length(); rotation++) {
 
 			String rebaseStr = baseStr + rotateStr.charAt(rotation);
-			String rtrStr =    rotateStr.substring(0, rotation) +  rotateStr.substring(rotation + 1, rotateStr.length());
+			String rtrStr = rotateStr.substring(0, rotation) + rotateStr.substring(rotation + 1, rotateStr.length());
 			getAllPossibleStrings(strings, rebaseStr, rtrStr);
 		}
 
