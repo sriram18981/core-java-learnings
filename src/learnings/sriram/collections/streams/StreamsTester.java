@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 
@@ -136,7 +138,6 @@ public class StreamsTester {
 	System.out.println(System.currentTimeMillis() - start);
 	System.out.println("parallel Sorting**********************************" +  sortedList.get(100));
 	
-
     }
 
     /**

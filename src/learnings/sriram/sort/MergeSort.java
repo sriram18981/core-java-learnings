@@ -1,10 +1,6 @@
 package learnings.sriram.sort;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class SortingTester1 {
+public class MergeSort {
 
 	public static void main(String[] args) {
 		int[] intArray = { 1, 23, 12, 34, 56, 65, 43, 56, 78, 43, 54, 765, 5433, 234 };
